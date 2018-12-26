@@ -1,0 +1,25 @@
+{
+    "name": "ibogood/pusher",
+    "description": "利用curl-multi做类推送的接口调用（频率比较高）",
+    "keywords": ["pusher", "Laravel 5", "Laravel", "curl-multi", "curl", "微信模板推送"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Bo Chan",
+            "email": "ibogood@126.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.4.0",
+        "illuminate/support": "5.*",
+        "illuminate/events": "5.*",
+        "illuminate/config": "5.*"
+    },
+    "autoload": {
+        "psr-4": {
+            "Ibogood\\Pusher\\": "src/Ibogood/Pusher/",
+            "Ibogood\\Restful\\": "src/Ibogood/Restful"
+        }
+    },
+    "minimum-stability": "stable"
+}
